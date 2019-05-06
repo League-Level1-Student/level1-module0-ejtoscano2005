@@ -9,17 +9,8 @@ import java.util.Random;
 
 import javax.swing.JButton;
 public class Jack_in_the_Box {
-	
-	
-	public void showButton(){
-		System.out.println("Button clicked");
-		JFrame frame = new JFrame();
-		frame.setVisible(true);
-		JButton button = new JButton("");
-		 frame.add(button);
-		 frame.pack(); 
+    public static void main(String[] args) {
+       new Surprise().showButton();
+    }
+ }
 
-		
-	}
-
-}
